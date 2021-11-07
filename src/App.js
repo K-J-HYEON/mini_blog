@@ -9,6 +9,8 @@ function App() {
     "서면 초밥 맛집",
     "리액트 독학",
   ]);
+
+  
   let [최고, 최고변경] = useState(0);
   let [modal, modal변경] = useState(true);
   let [누른제목, 누른제목변경] = useState(0);
