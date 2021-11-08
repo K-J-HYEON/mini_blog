@@ -19,17 +19,14 @@ function App() {
   let [입력값, 입력값변경] = useState('');
   
 
-  // function 제목바꾸기() {
-  //   let newArray = [...글제목];
-  //   newArray[0] = "여자 코트 추천";
-  //   글제목변경(newArray);
-  // }
-
   return (
     <div className="App">
       <div className="black-nav">
         <div>개발 blog</div>
       </div>
+
+
+
 
       {
         글제목.map(function(글, i){
