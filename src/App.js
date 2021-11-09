@@ -25,9 +25,6 @@ function App() {
         <div>개발 blog</div>
       </div>
 
-
-
-
       {
         글제목.map(function(글, i){
           return (
